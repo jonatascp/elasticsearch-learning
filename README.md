@@ -93,6 +93,9 @@ Command search by all attibutes
 GET people/_search?q=atletismo
 ```
 Command search by specific attribute
+```
+GET people/_search?q=name:Silva
+```
 ### Update data
 Command to update
 ```
